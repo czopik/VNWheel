@@ -38,7 +38,7 @@ void setup() {
 }
 void loop() {
   if (initialRun == true ) {
-//    position control is not correctly, wheel runs over disired postion serveral times before stop
+//    position control is not correctly, wheel runs over disired postion serveral times before stop.
     pwm.setPWM(10);
     gotoPosition(Wheel.encoder.minValue);
     gotoPosition(Wheel.encoder.maxValue);
